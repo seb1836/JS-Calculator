@@ -1,0 +1,19 @@
+button {
+  width: 100%;
+  min-width: 45px;
+  height: 45px;
+  border: 1px solid black;
+  background: grey;
+}
+
+tr > td:last-child button {
+  background: orange;
+  color: white;
+}
+
+input {
+  background: black;
+  width: 193px;
+  color: white;
+  text-align: right;
+}
