@@ -58,6 +58,7 @@ const calculateResult = () => {
   const numbersArrayIntoString = numbers.toString()
   const stringWitheoutComa = numbersArrayIntoString.replace(/,/g, '')
   document.getElementById('inputOfCalculator').value = eval(stringWitheoutComa)
+  numbers=[]
 }
 
 const addEventListeners = () => {
