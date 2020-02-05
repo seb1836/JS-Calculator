@@ -71,13 +71,7 @@ const addEventListeners = () => {
 
 addEventListeners()
 
-const callback = event => {
-  console.log(event.target.innerHTML)
-}
 
-const event = () => {
-  console.log('test')
-}
 
-document.getElementById('test').addEventListener('click', callback)
-document.getElementById('test').addEventListener('click', event => callback(event))
+
+
