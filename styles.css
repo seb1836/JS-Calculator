@@ -1,9 +1,29 @@
+body {
+  background: url('.//img/low-angle-view-of-spiral-staircase-against-black-background-247676.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: cursive;
+}
+
 button {
   width: 100%;
   min-width: 45px;
   height: 45px;
   border: 1px solid black;
   background: grey;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  flex-direction: column;
 }
 
 tr > td:last-child button {
@@ -16,4 +36,10 @@ input {
   width: 193px;
   color: white;
   text-align: right;
+}
+
+@media (min-width: 1900px) {
+  div {
+    height: 85vh;
+  }
 }
